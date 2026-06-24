@@ -1,20 +1,25 @@
-````markdown
+<h1 align="center">
+🚿 Shower Words 👾
+</h1>
 
-# 🚿 Shower Words — Retro Typing Terminal Game
+<p align="center">
+  <img src="assets/logoNotPNG.png" width="500">
+</p>
 
-![IDV](assets/logoNotPNG.png)
-
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pygame](https://img.shields.io/badge/Pygame-Framework-2C3E50?style=for-the-badge&logo=python&logoColor=white)
-![Data Structure](https://img.shields.io/badge/Data_Structure-Red--Black_Tree-DC143C?style=for-the-badge)
-![Performance](https://img.shields.io/badge/Search-O(log_n)-0aF600?style=for-the-badge)
-![Aesthetic](https://img.shields.io/badge/Vibe-UNIX_Terminal-000000?style=for-the-badge&logo=gnu-bash&logoColor=0aF600)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Pygame-2.6-2C3E50?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Data%20Structure-Red--Black%20Tree-DC143C?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Search-O(log%20n)-0aF600?style=for-the-badge">
+</p>
 
 Um jogo de digitação imersivo com estética retro de terminal UNIX, desenvolvido como projeto prático para o seminário de **Estruturas de Dados 2 (ED2)** do curso de **Engenharia de Computação** no **IFMS Campus Três Lagoas**.
 
 O projeto combina algoritmos clássicos de árvores balanceadas, Game Design, arquitetura orientada a objetos, efeitos de partículas e renderização em tempo real para criar uma experiência dinâmica de digitação.
 
-![Gameplay Preview](assets/gameplay_preview.mp4)
+<p align="center">
+  <img src="assets/gameplay_preview.mp4" width="800">
+</p>
 
 ---
 
@@ -102,9 +107,9 @@ Ao invés de validar palavras usando listas lineares, o projeto utiliza uma **Á
 
 - Alto desempenho mesmo com crescimento do dicionário
 
-|   Operação    | Complexidade |
-|---------------|--------------|
-| Inserção      | **O(log n)** |
+| Operação    | Complexidade       |
+| ------------- | ------------------ |
+| Inserção    | **O(log n)** |
 | Busca         | **O(log n)** |
 | Balanceamento | **O(log n)** |
 
@@ -264,4 +269,3 @@ Durante o desenvolvimento foram aplicados diversos conceitos estudados na discip
 - **Isadora Martins**
 - **Pedro Sperandio**
 - **Kaique Azambuja**
-````
