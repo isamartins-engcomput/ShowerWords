@@ -1,5 +1,5 @@
 <h1 align="center">
-🚿 Shower Words 👾
+🚿 Shower Words 🔡
 </h1>
 
 <p align="center">
@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Pygame-2.6-2C3E50?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Data%20Structure-Red--Black%20Tree-DC143C?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Search-O(log%20n)-0aF600?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Python-3.x-39FF14?style=for-the-badge&logo=python&logoColor=white&color=39FF14">
+  <img src="https://img.shields.io/badge/Pygame-2.6-39FF14?style=for-the-badge&logo=pygame&logoColor=white&color=39FF14">
+  <img src="https://img.shields.io/badge/Data%20Structure-Red--Black%20Tree-39FF14?style=for-the-badge&color=39FF14">
+  <img src="https://img.shields.io/badge/Search-O(log%20n)-39FF14?style=for-the-badge&color=39FF14">
 </p>
 
 Um jogo de digitação imersivo com estética retro de terminal UNIX, desenvolvido como projeto prático para o seminário de **Estruturas de Dados 2 (ED2)** do curso de **Engenharia de Computação** no **IFMS Campus Três Lagoas**.
@@ -18,7 +18,7 @@ Um jogo de digitação imersivo com estética retro de terminal UNIX, desenvolvi
 O projeto combina algoritmos clássicos de árvores balanceadas, Game Design, arquitetura orientada a objetos, efeitos de partículas e renderização em tempo real para criar uma experiência dinâmica de digitação.
 
 <p align="center">
-  <img src="assets/gameplay_preview.mp4" width="800">
+  <img src="assets/gameplay_preview.gif" width="800">
 </p>
 
 ---
@@ -55,13 +55,15 @@ pip install pygame
     ├── pixel_font.ttf
     ├── music.mp3
     ├── logo.png
-    └── hud_logo.png
+    ├── hud_logo.png
+    ├── logoNotPNG.png
+    └── gameplay_preview.gif
 ```
 
 ### 4. Execute
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 ---
@@ -78,7 +80,7 @@ O objetivo é impedir que as palavras alcancem a parte inferior da tela.
 
 ---
 
-# 🛠 Arquitetura do Sistema
+# 🛠️ Arquitetura do Sistema
 
 O projeto foi dividido em módulos independentes para facilitar manutenção, reutilização e organização do código.
 
@@ -155,7 +157,7 @@ Cada categoria funciona como uma "sacola". As palavras são retiradas sem repeti
 
 # ✨ Sistema de Partículas
 
-O jogo possui efeitos visuais para fornecer feedback imediato.
+O jogo possui efeitos visuais para fornecer feedback imediato:
 
 ## Acerto
 
@@ -232,7 +234,7 @@ O áudio permanece em loop contínuo e o carregamento é realizado via streaming
 
 ---
 
-# ⚙ Tecnologias Utilizadas
+# ⚙️ Tecnologias Utilizadas
 
 - Python
 - Pygame
@@ -252,13 +254,11 @@ Durante o desenvolvimento foram aplicados diversos conceitos estudados na discip
 
 - Estruturas de Dados
 - Árvores Balanceadas
-- Complexidade Assintótica
 - Programação Orientada a Objetos
 - Modularização
 - Encapsulamento
 - Heurísticas
 - Algoritmos de Busca
-- Simulação Física
 - Gerenciamento de Estados
 - Arquitetura de Software
 
